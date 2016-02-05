@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+.ps_insert_body{position:absolute; top:20%; left:15%; width:70%; margin:auto; height:auto; padding-bottom:30px; text-align: center; box-shadow: 0px 0px 20px rgba(0,0,0, 0.1);}
+
+.ps_insert_ti{font-size:25pt; color: #69D2E7; margin: 20px 0 10px 0; }
+.ps_insert_title{position:relative; width:350px; height:20px; margin: auto; margin-top:20px; margin-bottom:30px; padding:0px;}
+.ps_insert_title>input{width:100%;; padding:5px; margin:auto;}
+.ps_insert_file{margin:auto; width:10%; height:40px; background-size:100%; }
+.ps_insert_file:hover{cursor: pointer;}
+.ps_insert_file>form>input{opacity:1;}
+
+.ps_insert_show{width:93%; height:400px; margin: auto; margin-top:20px; background-color: #eee; overflow-x:hidden; overflow-y:auto; padding-left:10px; }
+.ps_insert_show::-webkit-scrollbar-track{-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); background-color: #F5F5F5; border-radius:10px;}
+.ps_insert_show::-webkit-scrollbar{width: 6px;background-color: #6e6e6e; border-radius:30%;}
+.ps_insert_show::-webkit-scrollbar-thumb{background-color: #474747; border-radius:10px;}
+
+.ps_insert_card{float:left; margin: 10px; width:150px; height: 150px;}
+.ps_insert_card:hover{cursor:pointer;}
+.ps_insert_card>img{margin: 0px; width:150px; height: 150px;}
+.ps_insert_content{background-color:transparent; width:100%; border:0;resize: none; wrap:hard;}
